@@ -1,7 +1,7 @@
 <div>
 
     <div class="row">
-        <input type="text" placeholder="Search article by title" wire:model="q">
+        <input type="text" placeholder="Search article by title" wire:model.live="q">
     </div>
 
       <div class="row">
